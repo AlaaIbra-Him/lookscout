@@ -7,7 +7,7 @@ Designed for startups,  or marketing purposes, the page provides a clean and pro
 
 ## 🌐 Live Demo
 
-👉 [View Demo](https://alaaibra-him.github.io/lookscout-responsive-landing-page-HTML5-CSS3/)
+👉 [View Demo](https://alaaibra-him.github.io/lookscout/)
 
 ---
 
