@@ -548,7 +548,7 @@ footer h4 {
 }
 
 /* --------------------- 425px  -------------------------- */
-@media (max-width: 425px) {
+@media (min-width: 425px) {
 
     /* --------------hero__container-------- */
 .navbar {
@@ -588,7 +588,7 @@ margin: 0rem 0;
     }
 
     .sub__action input {
-        width: 140%;
+        width: 100%;
         border-radius: .5rem;
     }
 
