@@ -68,9 +68,11 @@ p {
     width: max-content;
     display: block;
 }
-.dropdown{
+
+.dropdown {
     display: none;
 }
+
 .sign__up {
     color: var(--primary--color);
     padding: 1rem;
@@ -548,19 +550,23 @@ footer h4 {
 }
 
 /* --------------------- 425px  -------------------------- */
-@media (min-width: 425px) {
+@media (max-width: 426px) {
 
     /* --------------hero__container-------- */
-.navbar {
-margin: 0rem 0;
-}    
-.navbar .logo, .menu-icon{
-    padding: 1rem;
-}   
-.hero__container {
-    margin: 1rem;
-    width: 90%;
-}
+    .navbar {
+        margin: 0rem 0;
+    }
+
+    .navbar .logo,
+    .menu-icon {
+        padding: 1rem;
+    }
+
+    .hero__container {
+        margin: 1rem;
+        width: 90%;
+    }
+
     .hero__container h1 {
         font-size: 2.5rem;
         width: 100%;
@@ -588,7 +594,7 @@ margin: 0rem 0;
     }
 
     .sub__action input {
-        width: 100%;
+        width:140%;
         border-radius: .5rem;
     }
 
@@ -713,6 +719,22 @@ margin: 0rem 0;
 
     .copyright {
         left: 15%;
+        bottom: 9px;
+    }
+}
+/* ------------------- */
+@media (max-width: 321px) {
+    .sub__action input {
+        width:111%;
+    }
+    .menu-icon{
+        position: absolute;
+  top: 1rem;
+  right: 1rem;  
+  z-index: 1000;
+    }
+    .copyright {
+        left: 9%;
         bottom: 9px;
     }
 }
