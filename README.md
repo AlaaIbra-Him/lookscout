@@ -27,5 +27,3 @@ Designed for startups,  or marketing purposes, the page provides a clean and pro
 - **CSS3**
 - **Font Awesome** 
 - **Google Fonts**
-## 📁 Folder Structure
-
